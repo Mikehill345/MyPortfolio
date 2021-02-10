@@ -36,10 +36,10 @@ function App() {
           <section class="header-content">
             <h1>Michael Hill</h1>
             <img src={pic} alt='mike hill' />
-            <p> I am a Full Stack Web developer with experience building websites and web applications.
+            <p className='description'> I am a Full Stack Web developer with experience building websites and web applications.
             I specialize in JavaScript <br /> and have experience working testing in Jest and Cypress.
             I get excited and jump at the opportunity to be part of new projects,<br />
-            especially those that drive mypassion for helping members of my immediate community.</p>
+            especially those that drive my passion for helping members of my immediate community.</p>
           </section>
           <section className='skills'>
             <h2>Skills</h2>

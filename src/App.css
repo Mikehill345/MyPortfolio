@@ -251,3 +251,31 @@ body {
   .meow{
     width:100%;
   }
+  @media (max-width: 1024px){
+    .description{
+      width:60%;
+    }
+  }
+  @media (max-width:640px){
+    .projects{
+      flex-direction:column;
+      align-items: center;
+    }
+    .pic{
+      margin: 0 auto;
+    }
+    .background{
+      height:280vh;
+    }
+    .logo{
+      margin:4%;
+    }
+  }
+  @media (max-width:520){
+    .logo{
+      margin:2%;
+    }
+    .background{
+      height:340vh
+    }
+  }

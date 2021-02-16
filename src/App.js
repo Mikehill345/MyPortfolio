@@ -36,7 +36,7 @@ function App() {
           <section class="header-content">
             <h1>Michael Hill</h1>
             <img src={pic} alt='mike hill' />
-            <p className='description'> I am a Full Stack Web developer with experience building websites and web applications.
+            <p className='description'> I am a Full Stack Web Developer with experience building websites and web applications.
             I specialize in JavaScript <br /> and have experience working testing in Jest and Cypress.
             I get excited and jump at the opportunity to be part of new projects,<br />
             especially those that drive my passion for helping members of my immediate community.</p>
@@ -66,7 +66,8 @@ function App() {
                 <p>Created a global state management system utilizing Redux</p>
                 <p>Created front end components using React</p>
                 <p>HTML | CSS | Node | React | Redux </p>
-                <a href='https://github.com/Mikehill345/VR-funding-build-week'>Github Repo</a>
+                <a href='https://github.com/Mikehill345/VR-funding-build-week'>Github Repo</a> <br/>
+                <a href='https://vr-funding-build-week.vercel.app/'>VR-Funding App</a>
               </div>
               <div className='project'>
                 <h2>Co-Make</h2>
@@ -74,7 +75,8 @@ function App() {
                 <p>Developing Node.js backend including testing with Jest</p>
                 <p>Created database by utilizing SQLite</p>
                 <p>HTML | CSS | Node | React | Redux </p>
-                <a href='https://github.com/Lambda-Co-Make-Build-Week/Back-End'>Github Repo</a>
+                <a href='https://github.com/Lambda-Co-Make-Build-Week/Back-End'>Github Repo</a><br/>
+                <a href='https://5fb7f5352524ce210f3c212f--hardcore-goldstine-116118.netlify.app/'>Co-Make</a>
               </div>
               <div className='project'>
                 <h2>Weather App</h2>
@@ -86,19 +88,19 @@ function App() {
               </div>
             </div>
             <div className='email-form'>
-              <Email/>
+              <Email />
             </div>
           </section>
         </header>
         <footer>
           <div className='email'>
-          <h2>Contact</h2>
-          <img src={email} alt='gmail icon' className='icons'/>
-          <h2>mikehill.webdeveloper@gmail.com</h2>
+            <h2>Contact me</h2>
+            <img src={email} alt='gmail icon' className='icons' />
+            <h2>mikehill.webdeveloper@gmail.com</h2>
           </div>
           <div className="icon-section">
-          <img src={github} href='https://github.com/Mikehill345' alt='github icon' className="icons"/>
-          <img src={linkedin} href='https://www.linkedin.com/in/mikehill345/' alt='linkedin icon' className="icons"/>
+            <img src={github} href='https://github.com/Mikehill345' alt='github icon' className="icons" />
+            <img src={linkedin} href='https://www.linkedin.com/in/mikehill345/' alt='linkedin icon' className="icons" />
           </div>
         </footer>
       </div>

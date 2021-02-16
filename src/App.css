@@ -35,7 +35,7 @@ body {
     background-size: 500% 500%;
     animation: Gradient 15s ease infinite;
     position: relative;
-    height: 200vh;
+    height: 190vh;
     width: 100%;
     overflow: hidden;
     padding:0;
@@ -195,6 +195,9 @@ body {
       width:40%;
       height:auto;
   }
+  .skills h2{
+    margin:0;
+  }
   .logos{
     width: auto;
     height: 50px;
@@ -227,7 +230,7 @@ body {
     flex-wrap: wrap;
   }
   .icons{
-    height:70px;
+    height:40px;
     width:auto;
     margin:0 auto;
   }
@@ -241,7 +244,10 @@ body {
     flex-direction: column;
   }
   footer{
-    background-image:url('https://get.clt.re/wp-content/uploads/2014/12/footer-background-01.jpg')
+    background-image:url('https://get.clt.re/wp-content/uploads/2014/12/footer-background-01.jpg');
+  }
+  footer h2{
+    margin:1%;
   }
   .email-form{
     display:flex;
@@ -271,11 +277,43 @@ body {
       margin:4%;
     }
   }
-  @media (max-width:520){
+  @media (max-width:685px){
     .logo{
       margin:2%;
     }
     .background{
-      height:340vh
+      height:220vh;
+    }
+  }
+  @media (max-width:666px){
+    .logo{
+      margin:2%;
+    }
+    .background{
+      height:220vh;
+    }
+  }
+  @media (max-width:592px){
+    .logo{
+      margin:2%;
+    }
+    .background{
+      height:300vh;
+    }
+  }
+  @media (max-width:400px){
+    .logo{
+      margin:2%;
+    }
+    .background{
+      height:450vh;
+    }
+  }
+  @media (max-width:500px){
+    .logo{
+      margin:2%;
+    }
+    .background{
+      height:320vh;
     }
   }

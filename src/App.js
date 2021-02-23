@@ -62,7 +62,7 @@ function App() {
               </div>
               <div className='project'>
                 <h2>VR Funding</h2>
-                <p>VR Funding is an app for entrepreneurs to post their up and comingbuissness <br /> ideas also for capital investors to look through and decidewhether or not they would like to invest in the project.</p>
+                <p>VR Funding is an app for entrepreneurs to post their up and coming buissness <br /> ideas also for capital investors to look through and decidewhether or not they would like to invest in the project.</p>
                 <p>Created a global state management system utilizing Redux</p>
                 <p>Created front end components using React</p>
                 <p>HTML | CSS | Node | React | Redux </p>

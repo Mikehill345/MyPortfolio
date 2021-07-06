@@ -9,7 +9,7 @@ const Projects = () => {
                 <p>Designed and managed search component capable of locating a single record in <br /> database with 100% accuracy using React and Redux</p>
                 <p>implemented new features as requested while maintaining legacy code</p>
                 <p>HTML | CSS | Node | React | Redux | JSON server</p>
-                <a href='https://github.com/Mikehill345/village-book-builders-fe-a'>Github Repo</a>
+                <a className='links' href='https://github.com/Mikehill345/village-book-builders-fe-a'>Github Repo</a>
             </div>
             <div className='project'>
                 <h2>VR Funding</h2>
@@ -17,8 +17,8 @@ const Projects = () => {
                 <p>Created a global state management system utilizing Redux</p>
                 <p>Created front end components using React</p>
                 <p>HTML | CSS | Node | React | Redux </p>
-                <a href='https://github.com/Mikehill345/VR-funding-build-week'>Github Repo</a> <br />
-                <a href='https://vr-funding-build-week.vercel.app/'>VR-Funding App</a>
+                <a className='links' href='https://github.com/Mikehill345/VR-funding-build-week'>Github Repo</a> <br />
+                <a className='links' href='https://vr-funding-build-week.vercel.app/'>VR-Funding App</a>
             </div>
             <div className='project'>
                 <h2>Co-Make</h2>
@@ -26,8 +26,8 @@ const Projects = () => {
                 <p>Developing Node.js backend including testing with Jest</p>
                 <p>Created database by utilizing SQLite</p>
                 <p>HTML | CSS | Node | React | Redux </p>
-                <a href='https://github.com/Lambda-Co-Make-Build-Week/Back-End'>Github Repo</a><br />
-                <a href='https://5fb7f5352524ce210f3c212f--hardcore-goldstine-116118.netlify.app/'>Co-Make</a>
+                <a className='links' href='https://github.com/Lambda-Co-Make-Build-Week/Back-End'>Github Repo</a><br />
+                <a className='links' href='https://5fb7f5352524ce210f3c212f--hardcore-goldstine-116118.netlify.app/'>Co-Make</a>
             </div>
             <div className='project'>
                 <h2>Weather App</h2>
@@ -35,7 +35,7 @@ const Projects = () => {
                 <p>Did front end web development in react</p>
                 <p>Created a global state management system utilizing Redux</p>
                 <p>HTML | CSS | Node | React | Redux </p>
-                <a href='https://github.com/Mikehill345/React-Redux-App'>Github Repo</a>
+                <a className='links' href='https://github.com/Mikehill345/React-Redux-App'>Github Repo</a>
             </div>
         </div>
     )

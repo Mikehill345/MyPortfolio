@@ -3,7 +3,8 @@ import About from './About'
 
 const Header = () => {
     return (
-        <div>
+        <div className='header'>
+            <div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -14,9 +15,10 @@ const Header = () => {
                 </ul>
             </nav>
             <div class="logo"><span>MRH</span></div>
-            <section class="header-content">
+            </div>
+            <div class="header-content">
                 <About />
-            </section>
+            </div>
         </div>
     )
 }

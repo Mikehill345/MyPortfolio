@@ -14,16 +14,18 @@ const Email = () => {
             });
     }
     return (
-        <form className="email-form" onSubmit={sendEmail}>
-            <input type="hidden" name="contact_number" />
-            <label>Name</label>
-            <input type="text" name="user_name" className='meow' />
-            <label>Email</label>
-            <input type="email" name="user_email" className='meow' />
-            <label>Message</label>
-            <textarea name="message" className='meow' />
-            <input type="submit" value="Send" />
-        </form>
+        <div className='email-form'>
+            <form className="email-form" onSubmit={sendEmail}>
+                <input type="hidden" name="contact_number" />
+                <label>Name</label>
+                <input type="text" name="user_name" className='meow' />
+                <label>Email</label>
+                <input type="email" name="user_email" className='meow' />
+                <label>Message</label>
+                <textarea className='message' name="message" />
+                <input className='submit' type="submit" value="Send" />
+            </form>
+        </div>
     );
 }
 

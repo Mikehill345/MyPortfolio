@@ -8,7 +8,7 @@ import nodelogo from '../utils/320px-Node.js_logo.svg.png'
 
 const Logos = () => {
     return (
-        <div>
+        <div className='logos'>
             <img src={Htmlogo} alt='HTML logo' className='logos' />
             <img src={pylogo} alt='Python logo' className='logos' />
             <img src={reactlogo} alt='React logo' className='logos' />

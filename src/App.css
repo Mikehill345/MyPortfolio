@@ -191,6 +191,10 @@ body {
     height:10rem;
     width:25rem;
   }
+  .projects h2{
+    color:white;
+    font-weight:bold;
+  }
   @media (max-width: 1024px){
     .description{
       width:60%;
@@ -236,6 +240,9 @@ body {
     }
     .background{
       height:220vh;
+    }
+    .header-content p{
+      width:60%;
     }
   }
   @media (max-width:592px){

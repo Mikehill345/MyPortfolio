@@ -30,16 +30,8 @@ body {
     background: #FFF;
   }
   /* ============= Animation background ========= */
-  .background {
-    background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
-    background-size: 500% 500%;
-    animation: Gradient 15s ease infinite;
-    position: relative;
-    height: 190vh;
-    width: 100%;
-    overflow: hidden;
-    padding:0;
-    margin:0px;
+  .app {
+height:400vh;
   }
   .cube {
     position: absolute;
@@ -255,7 +247,11 @@ body {
     flex-direction: column;
   }
   .meow{
-    width:100%;
+    width:25rem;
+    height:2rem;
+  }
+  .about{
+    display:flex;
   }
   @media (max-width: 1024px){
     .description{
